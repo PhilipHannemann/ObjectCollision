@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{600C0BA7-6516-4DD5-88FE-9802752CDB65}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>QuantumEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>QuantumEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\binaries\x86\</OutDir>
+    <IncludePath>..\BulletPhysics;..\FreeType2\include;SDL;GL;$(IncludePath);</IncludePath>
+    <LibraryPath>lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\External;..\;..\NanoGUI;$(IncludePath);</IncludePath>
+    <LibraryPath>lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\..\binaries\x64\</OutDir>
+    <TargetName>Quantum_debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\binaries\x86\</OutDir>
+    <IncludePath>..\BulletPhysics;..\FreeType2\include;SDL;GL;$(IncludePath);(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>lib\x86;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\binaries\x64\</OutDir>
+    <IncludePath>..\External;..\;..\NanoGUI;$(IncludePath)</IncludePath>
+    <LibraryPath>lib\x64;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <TargetName>Quantum</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bullet_D.lib;SDL2.lib;SDL2main.lib;opengl32.lib;glu32.lib;glew32s.lib;LibConfig_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <AdditionalDependencies>enginecore_D.lib;nanogui_D.lib;physicengine_D.lib;SDL2.lib;SDL2main.lib;opengl32.lib;glu32.lib;glew32s.lib;LibConfig_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>bullet.lib;SDL2.lib;SDL2main.lib;opengl32.lib;glu32.lib;glew32s.lib;LibConfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalOptions>/MP /wd4244 /wd4267</AdditionalOptions>
+      <StringPooling>true</StringPooling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalDependencies>enginecore.lib;nanogui.lib;physicengine.lib;SDL2.lib;SDL2main.lib;opengl32.lib;glu32.lib;glew32s.lib;LibConfig.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppearanceNode.cpp" />
+    <ClCompile Include="AShaderStorageBufferObject.cpp" />
+    <ClCompile Include="ConstructShaders.cpp" />
+    <ClCompile Include="EditorModelManager.cpp" />
+    <ClCompile Include="EditorParts.cpp" />
+    <ClCompile Include="IVertexData.cpp" />
+    <ClCompile Include="RenderObject.cpp" />
+    <ClCompile Include="RigidBodyModelWrapper.cpp" />
+    <ClCompile Include="SceneQuantumEditor.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="AUniformBufferObject.cpp" />
+    <ClCompile Include="BranchGroupeNode.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraLookAt.cpp" />
+    <ClCompile Include="CameraNode.cpp" />
+    <ClCompile Include="ConfigWindow.cpp" />
+    <ClCompile Include="DebugRender.cpp" />
+    <ClCompile Include="DebugWindow.cpp" />
+    <ClCompile Include="GeometryNode.cpp" />
+    <ClCompile Include="LightNode.cpp" />
+    <ClCompile Include="LightSource.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MySceneRenderer.cpp" />
+    <ClCompile Include="PostPass.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="RenderCache.cpp" />
+    <ClCompile Include="RenderObjectMaterial.cpp" />
+    <ClCompile Include="SceneGraph.cpp" />
+    <ClCompile Include="SceneNode.cpp" />
+    <ClCompile Include="SoftBodyCompactNode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SoftBodyModelWrapper.cpp" />
+    <ClCompile Include="SoftBodyVertexData.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="SoftBodyWindow.cpp" />
+    <ClCompile Include="StaticRigidBodyNode.cpp" />
+    <ClCompile Include="StaticVertexData.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TinyObjModel.cpp" />
+    <ClCompile Include="TransformationNode.cpp" />
+    <ClCompile Include="ShaderFragment.cpp" />
+    <ClCompile Include="TinyObjVertexData.cpp" />
+    <ClCompile Include="UBODynamicData.cpp" />
+    <ClCompile Include="UBOGlobals.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppearanceNode.h" />
+    <ClInclude Include="AShaderStorageBufferObject.h" />
+    <ClInclude Include="ConstructShaders.h" />
+    <ClInclude Include="DefaultShader.h" />
+    <ClInclude Include="EditorModelManager.h" />
+    <ClInclude Include="EditorParts.h" />
+    <ClInclude Include="RenderInstance.h" />
+    <ClInclude Include="RigidBodyModelWrapper.h" />
+    <ClInclude Include="SceneQuantumEditor.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="AUniformBufferObject.h" />
+    <ClInclude Include="BranchGroupeNode.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraLookAt.h" />
+    <ClInclude Include="CameraNode.h" />
+    <ClInclude Include="ConfigWindow.h" />
+    <ClInclude Include="DebugRender.h" />
+    <ClInclude Include="DebugWindow.h" />
+    <ClInclude Include="LightSource.h" />
+    <ClInclude Include="GeometryNode.h" />
+    <ClInclude Include="LightNode.h" />
+    <ClInclude Include="MySceneRenderer.h" />
+    <ClInclude Include="RenderCache.h" />
+    <ClInclude Include="RenderObject.h" />
+    <ClInclude Include="IVertexData.h" />
+    <ClInclude Include="RenderObjectMaterial.h" />
+    <ClInclude Include="SceneGraph.h" />
+    <ClInclude Include="SceneNode.h" />
+    <ClInclude Include="ShaderParts.h" />
+    <ClInclude Include="SoftBodyCompactNode.h" />
+    <ClInclude Include="SoftBodyModelWrapper.h" />
+    <ClInclude Include="SoftBodyShader.h" />
+    <ClInclude Include="SoftBodyVertexData.h" />
+    <ClInclude Include="SoftBodyWindow.h" />
+    <ClInclude Include="StaticRigidBodyNode.h" />
+    <ClInclude Include="StaticVertexData.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TinyObjModel.h" />
+    <ClInclude Include="TransformationNode.h" />
+    <ClInclude Include="RenderConstants.h" />
+    <ClInclude Include="RenderExceptions.h" />
+    <ClInclude Include="ShaderFragment.h" />
+    <ClInclude Include="TinyObjVertexData.h" />
+    <ClInclude Include="UBODynamicData.h" />
+    <ClInclude Include="UBOGlobals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\client.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_Deprecated">
+      <UniqueIdentifier>{ce451e66-620a-4345-b073-805a2e898452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Broadphase">
+      <UniqueIdentifier>{59547309-4e2f-4c67-8a41-903119ad3471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase">
+      <UniqueIdentifier>{314583d4-e233-4757-99ba-894356c5b24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Solver">
+      <UniqueIdentifier>{ad8f7913-5e9d-403a-97e7-2f570ea0ae28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\World">
+      <UniqueIdentifier>{93c7a1cd-38ef-4640-a947-0ff3519373df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Broadphase">
+      <UniqueIdentifier>{bea6800f-49d5-433d-8aff-4462273407b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase">
+      <UniqueIdentifier>{836ecd71-4a76-4c3a-acb0-7a58e23c23b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Solver">
+      <UniqueIdentifier>{bbd88d64-205a-4f12-9493-57b6d045d6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\World">
+      <UniqueIdentifier>{3f6b8dfa-54a0-461b-90c4-d18ea13ed71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionAlgorithms">
+      <UniqueIdentifier>{f539c3be-760d-49b3-bc8c-eb5edce08ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionAlgorithms">
+      <UniqueIdentifier>{cc66306a-46d0-4a0c-99f9-dd8b75cea151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionHulls">
+      <UniqueIdentifier>{c8936b31-7048-4392-822c-0fc89289724e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Decomposition">
+      <UniqueIdentifier>{98c7b0a5-d5d3-4e9f-ad8a-3ab571e968db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionAlgorithms\SB Sphere Tree">
+      <UniqueIdentifier>{f602380c-ba6e-4337-8280-b475b366266d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionAlgorithms\SB Sphere Tree\SphereTreeBuilder">
+      <UniqueIdentifier>{92caba40-7e30-4dcb-90a0-1c40a5c458da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Decomposition">
+      <UniqueIdentifier>{02bf807a-1766-417d-8f65-f0221334f3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionAlgorithms\SBSphereTree">
+      <UniqueIdentifier>{dba9c11b-9e96-47e3-b6ab-160306f0f3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionAlgorithms\SBSphereTree\SphereTreeBuilder">
+      <UniqueIdentifier>{d39674ef-4906-4ea1-a8b6-4ebcfe680776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionHulls">
+      <UniqueIdentifier>{cb848e4a-b837-4bb8-98be-23f769e35fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionAlgorithms\SoftBodyRigidBody">
+      <UniqueIdentifier>{10a9d3b1-64ab-472d-a695-f3f072f3e240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionAlgorithms\SoftBodyRigidBody">
+      <UniqueIdentifier>{2e9eb3a4-d3d2-4c9e-8b54-59534c1306e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms">
+      <UniqueIdentifier>{4437a5cc-4d1c-4c01-9640-46f807e738a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms">
+      <UniqueIdentifier>{e4fd7cd4-e5e0-4687-83e8-064243784b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\World\SoftBody">
+      <UniqueIdentifier>{9635b13f-b262-4d49-b48f-aa1f1de38e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\World\SoftBody">
+      <UniqueIdentifier>{df01012b-090a-49d8-932f-37c072fe1f8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Broadphase.h">
+      <Filter>Headerdateien\Broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Headerdateien\Narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BVHNode.h">
+      <Filter>Headerdateien\Broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBody.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PotentialContact.h">
+      <Filter>Headerdateien\Broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyIndex.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Headerdateien\World</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftBodySolver.h">
+      <Filter>Headerdateien\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="DeformationMode.h">
+      <Filter>Headerdateien\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Headerdateien\Narrowphase</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmBase.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereTreeBuilder.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\SBSphereTree\SphereTreeBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHull.h">
+      <Filter>Headerdateien\Narrowphase\CollisionHulls</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereTreeCollisionHull.h">
+      <Filter>Headerdateien\Narrowphase\CollisionHulls</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterBuilder.h">
+      <Filter>Headerdateien\Decomposition</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereTreeNode.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\SBSphereTree\SphereTreeBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="SBSphereTreeCollisionAlgorithm.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\SBSphereTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SBRBCollisionAlgorithm.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\SoftBodyRigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollisionHull.h">
+      <Filter>Headerdateien\Narrowphase\CollisionHulls</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadphaseAABB.h">
+      <Filter>Headerdateien\Broadphase</Filter>
+    </ClInclude>
+    <ClInclude Include="RayHelper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBodyAABBRayIntersectAlgorithm.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ARayIntersectionAlgorithm.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SBSphereTreeRayIntersectAlgorithm.h">
+      <Filter>Headerdateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftBody.h">
+      <Filter>Headerdateien\World\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftBodyCluster.h">
+      <Filter>Headerdateien\World\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterMesh.h">
+      <Filter>Headerdateien\Decomposition</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Quelldateien\Narrowphase</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Quelldateien\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Broadphase.cpp">
+      <Filter>Quelldateien\Broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="BVHNode.cpp">
+      <Filter>Quelldateien\Broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBody.cpp">
+      <Filter>Quelldateien\World</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Quelldateien\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Quelldateien\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftBodySolver.cpp">
+      <Filter>Quelldateien\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereTreeBuilder.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\SB Sphere Tree\SphereTreeBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHull.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionHulls</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereTreeCollisionHull.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionHulls</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereTreeNode.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\SB Sphere Tree\SphereTreeBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="SBSphereTreeCollisionAlgorithm.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\SB Sphere Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="SBRBCollisionAlgorithm.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\SoftBodyRigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadphaseAABB.cpp">
+      <Filter>Quelldateien\Broadphase</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterBuilder.cpp">
+      <Filter>Quelldateien\Decomposition</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodyAABBRayIntersectAlgorithm.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SBSphereTreeRayIntersectAlgorithm.cpp">
+      <Filter>Quelldateien\Narrowphase\CollisionAlgorithms\RayIntersectionAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftBody.cpp">
+      <Filter>Quelldateien\World\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftBodyCluster.cpp">
+      <Filter>Quelldateien\World\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="BodyIndex.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

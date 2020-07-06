@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\3rdParty">
+      <UniqueIdentifier>{073828ab-9d3a-48dd-bb91-a522778a4f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\3rdParty">
+      <UniqueIdentifier>{d0bd66c1-96e9-42c7-94e2-047069c2dd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\3rdParty\util">
+      <UniqueIdentifier>{9a339a2f-a340-47e3-97d8-7d0d8447ac7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\3rdParty\util\lz4">
+      <UniqueIdentifier>{47cdf632-e7fa-4377-8309-bf20f32de936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\3rdParty\util">
+      <UniqueIdentifier>{e7e84c6b-ed56-4278-aaca-4eeb4d5e24a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\3rdParty\util\lz4">
+      <UniqueIdentifier>{be1fe912-b70b-43df-b76e-a72a1f474e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\core">
+      <UniqueIdentifier>{464885db-e27c-47db-a9d8-3dc5dbfdb5fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\core">
+      <UniqueIdentifier>{a66fab01-75c7-49c6-bea8-b5b05f0c652d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\core\event">
+      <UniqueIdentifier>{ae44a419-5d24-4ee0-85d9-8dbbc419fc79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\util">
+      <UniqueIdentifier>{72208956-ee1c-42f4-9284-6eefb49a7d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\util">
+      <UniqueIdentifier>{3f0021d9-6fee-4899-8418-f0a58ad83f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\config">
+      <UniqueIdentifier>{59d80c52-0982-49bf-aaf6-3efe0570d35b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\render">
+      <UniqueIdentifier>{70624a0e-1633-4590-9d88-659335bad000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\loader">
+      <UniqueIdentifier>{7cd676ef-bcc3-4b42-8399-cbfb6182039e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\nanogui">
+      <UniqueIdentifier>{4b34fec7-63aa-4195-ae5d-268d1f738088}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4.h">
+      <Filter>Headerdateien\3rdParty\util\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4frame.h">
+      <Filter>Headerdateien\3rdParty\util\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4frame_static.h">
+      <Filter>Headerdateien\3rdParty\util\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\lz4hc.h">
+      <Filter>Headerdateien\3rdParty\util\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="lz4\xxhash.h">
+      <Filter>Headerdateien\3rdParty\util\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="libconfig.h">
+      <Filter>Headerdateien\3rdParty\util</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Headerdateien\3rdParty\util</Filter>
+    </ClInclude>
+    <ClInclude Include="AScene.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLCore.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.hpp">
+      <Filter>Headerdateien\core\event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventData.hpp">
+      <Filter>Headerdateien\core\event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.hpp">
+      <Filter>Headerdateien\core\event</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcurrentQueue.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseExceptions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Headerdateien\core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineConfig.h">
+      <Filter>Headerdateien\config</Filter>
+    </ClInclude>
+    <ClInclude Include="IDebugRender.h">
+      <Filter>Headerdateien\render</Filter>
+    </ClInclude>
+    <ClInclude Include="IModel.h">
+      <Filter>Headerdateien\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="AWindow.h">
+      <Filter>Headerdateien\nanogui</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLExport.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Gobals.h">
+      <Filter>Headerdateien\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4.cpp">
+      <Filter>Quelldateien\3rdParty\util\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4frame.cpp">
+      <Filter>Quelldateien\3rdParty\util\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\lz4hc.cpp">
+      <Filter>Quelldateien\3rdParty\util\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="lz4\xxhash.cpp">
+      <Filter>Quelldateien\3rdParty\util\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cc">
+      <Filter>Quelldateien\3rdParty\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Quelldateien\core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Quelldateien\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Quelldateien\core</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLCore.cpp">
+      <Filter>Quelldateien\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Compression.cpp">
+      <Filter>Quelldateien\util</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Quelldateien\core</Filter>
+    </ClCompile>
+    <ClCompile Include="IDebugRender.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Quelldateien\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

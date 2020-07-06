@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\nanovg">
+      <UniqueIdentifier>{2b3fe524-5b0f-49bb-8441-d74afa58caa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\nanovg">
+      <UniqueIdentifier>{86bf7dcc-d249-4120-8f8d-d84c4369eeb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="button.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="colorwheel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="combobox.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="entypo.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="formhelper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="glcanvas.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="glutil.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="imagepanel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="imageview.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="label.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="layout.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="messagedialog.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="nanogui.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="popup.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="popupbutton.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="progressbar.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="python.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="rescource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stackedwidget.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tabheader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="tabwidget.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="theme.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="toolbutton.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="vscrollpanel.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="widget.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="serializer\core.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="serializer\opengl.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="serializer\sparse.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\fontstash.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\nanovg.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\nanovg_gl.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\nanovg_gl_utils.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\stb_image.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\stb_truetype.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+    <ClInclude Include="nanovg\stdafx.h">
+      <Filter>Headerdateien\nanovg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="button.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="colorpicker.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="colorwheel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="combobox.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="glcanvas.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="glutil.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="imagepanel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="imageview.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="layout.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="messagedialog.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="popup.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="popupbutton.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="progressbar.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="serializer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stackedwidget.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tabheader.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="tabwidget.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="theme.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="vscrollpanel.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="nanovg\nanovg.cpp">
+      <Filter>Quelldateien\nanovg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
